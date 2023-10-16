@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="media.css">
+   <link rel="stylesheet" href="chat.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+
+
+</head>
+<body>
+   
+   <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+    
+     <i class="fa fa-bars"></i>
+    </label>
+        
+     <label class="logo">paisabazaar</label>
+     
+    <ul>
+      <li><a class="active"href="#">Credit Cards</a></li>
+      <li><a href="#">Cersonal Loan</a></li>
+      <li><a href="#">Other Loans</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Feedback</a></li>
+
+     </ul>
+   </nav>
+        <div class="gst">
+        <img src="https://www.paisabazaar.com/wp-content/webp-express/webp-images/doc-root/wp-content/themes/Impreza-child/framework/images/cals-img.png.webp
+        " alt="">
+        </div>
+        <div class="edit">
+       <div class="gst"> <h2>GST Caiculator:Calculate Your<br>
+            GST Amount Online
+        </h2>
+        <p>GST calculator enables you to find pre-GST and
+        <br>post-GST amounts based on specific GST rates. </p>
+        
+    </div>
+  
+         <div class="radio"> <input type="radio" id="gstExclusive" name="gstType" value="exclusive" checked>
+          <label for="gstExclusive">GST Exclusive</label>
+          <input type="radio" id="gstInclusive" name="gstType" value="inclusive">
+          <label for="gstExclusive">GST inclusive</label><br>
+    </div>
+        <div class="amount" ><br><p>Amount</p>
+        <input type="text" id="originalAmount" value="100.00" class="input">
+          
+        </div>
+        <br>
+        <label for="GST" class="aa" id="">GST RATE</label>
+        <br>
+       <select name="GST" id="gstRate" class="dd">
+       <option value="5">5%</option>
+       <option value="12">12%</option>
+       <option value="18">18%</option>
+       <option value="28">28%</option>
+      </select>
+      <br><br><br><br> 
+      <div class="ss">
+        <button id="calculateButton">
+        <p>Calculate</p>
+        </button>
+      </div>
+     <div class="flex"> 
+      <div class="total">
+           <p>TOTAL GST</p>
+            <input type="text" value="0.00" id="totalGST" class="rr">
+      </div>
+        <div class="total2">
+        <P>POST-GST AMOUNT</p>
+        <input type="text" value="0.00" id="postGSTAmount" class="pp">
+        
+        </div> 
+           
+
+      </div>
+    </div>
+      <div class="note">
+        <br><br><br><br>
+        <h2>What is GST</h2>
+        <br>
+        <br>
+        <p>Goods and Services Tax or GST refers to the indirect tax levied on the supply of goods and services. From July 1, 2017, GST came up as single taxation system in  India and replaced all the indirect taxes in the country. The Central Government passed the GST Act in the Budget Session in 2017 that was approved by the Parliament on March 29, 2017. Some of the taxes that were abolished were Central Excise Duty, VAT, Entry Tax and Octroi.
+
+          GST is a comprehensive tax levied on the manufacture, sale and consumption of goods and services in the country.  Different small and large organizations are required to have a GST Identification Number to get registered under GST policy. When any kind of sales transaction is made within
+          (Inter-state), Integrated GST is charged. And for any intra-state sales, Central GST and State GST.
+          <br><br>
+          <b>State GST (SGST):</b> It is collected by State Government.
+          <br><br>
+          <b>Integrated GST (IGST):</b>It is collected by Central Government.
+          <br><br>
+        
+          <b> Integrated GST (IGST):</b> It is collected by Central Government for inter-state transactions and imports.
+          <br><br>
+          <b>Union Territory GST (UTGST):</b> It is collected by Union Territory Government.
+          <br><br>
+        </p>
+      
+      
+        <h2>How is GST Calculated</h2>
+        <br><br>
+        <p>With the unified system of taxation, it is now possible for taxpayers to know the tax levied at different points for various goods and services under the GST regimen. For calculating GST, the taxpayer should know the GST rate applicable to various categories. The different slabs for GST are 5%, 12%, 18% and 28%
+        <br><br>
+        GST calculation can be explained by a simple illustration :
+        <br><br>
+        If a goods or services is sold at Rs. 1,000 and the GST rate applicable is 18%, then the net price calculated will be = 1,000+ (1,000X(18/100)) = 1,000+180 = Rs. 1,180.
+
+        </p>
+        <br>
+        <h2>GST Calculation Formula</h2>
+        <br><br>
+        <p>For calculating GST, a taxpayer can use the below mentioned formula :
+         <br><br>
+         <b>In order to add GST to base amount.</b>
+         <br><br>
+         Add GST <br>
+        GST Amount = ( Original Cost * GST% ) / 100<br>
+        Net Price = Original Cost + GST Amountbr
+        <br><br>
+        <b>In order to remove GST from base amount,</b>
+        <br><br>
+        Remove GST <br>
+       GST Amount = Original Cost – (Original Cost * (100 / (100 + GST% ) ) )<br>
+       Net Price = Original Cost – GST Amount
+
+        </p>
+        <br>
+        <h2>How to Use our GST Calculation Tool</h2><br><br>
+        <p>We, at Paisabazaar offer taxpayers a dedicated and professional GST Calculator tool that helps in easy calculation of GST. Taxpayers who want to calculate GST with the differential GST rate can use our tool.
+          <br><br>
+          Mentioned below are steps to be followed for calculating GST through GST Calculation Tool:
+          <br><br>
+          <b>Step 1:</b> Select GST Inclusive/GST Exclusive as per the requirement
+          <br><br>
+         <b> Step 2:</b> Enter the original amount
+         <br><br>
+          <b> Step 3:</b> Select the GST rate from the drop-down menu list
+         <br><br>
+         <b>Step 4:</b> Click on Calculate to check the result. The result will show the total GST amount and Pre-GST/Post-GST amount as per your original requirement.
+         <br><br>
+         <h2>What is GST Inclusive Amount</h2><br>
+        <p> GST inclusive amount refers to the total value of the product after including the GST amount in the original value of the product. The tax is not charged separately from the customer.
+        </p>
+          <br>
+          <h2>What is GST Exclusive Amount</h2><br>
+          <p>GST Exclusive amount refers to the value of the product by subtracting the GST amount from the GST Inclusive value of the product
+          </p>
+        </p>
+        </p>
+      </div>
+      <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="paisabazaar-logo.svg" alt="Logo">
+                <p>Paisabazaar.com</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-social">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    
+      <script> 
+        document.getElementById("calculateButton").addEventListener("click", function () {
+            const originalAmount = parseFloat(document.getElementById("originalAmount").value);
+            const gstRate = parseFloat(document.getElementById("gstRate").value) / 100;
+            const gstType = document.querySelector('input[name="gstType"]:checked').value;
+
+            let totalGST, postGSTAmount;
+
+            if (gstType === "exclusive") { 
+                totalGST = (originalAmount * gstRate).toFixed(2);
+                postGSTAmount = (originalAmount + (originalAmount * gstRate)).toFixed(2);
+            } else {
+                totalGST = (originalAmount * (gstRate / (1 + gstRate))).toFixed(2);
+                postGSTAmount = (originalAmount - (originalAmount * gstRate)).toFixed(4);
+            }
+
+            document.getElementById("totalGST").value = totalGST;
+            document.getElementById("postGSTAmount").value = postGSTAmount;
+        });
+    </script>
+</body>
+</html>
